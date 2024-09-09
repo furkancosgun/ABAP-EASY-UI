@@ -153,7 +153,7 @@ START-OF-SELECTION.
   lo_row1->add_widget(
     io_widget = NEW zcl_easy_ui_radiobutton(
       fieldname = 'GS_CONTEXT-GENDER-MAN'
-      group1    = 'GENDER'
+      group     = 'GENDER'
     )
   ).
 
@@ -163,7 +163,7 @@ START-OF-SELECTION.
   lo_row1->add_widget(
     io_widget = NEW zcl_easy_ui_radiobutton(
       fieldname = 'GS_CONTEXT-GENDER-WOMAN'
-      group1    = 'GENDER'
+      group     = 'GENDER'
     )
   ).
   lo_layout->add_row( io_layout = lo_row1 ).
